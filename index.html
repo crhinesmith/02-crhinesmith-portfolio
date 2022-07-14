@@ -4,16 +4,73 @@
     <title>Calvin Rhinesmith Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Reset first to reset any default stylesheet-->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- Style sheet second so it is not overwritten-->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
   <body>
+    
     <header>
+      <!-- Header-->
       <h1>Calvin Rhinesmith</h1>
-      
-    <nav>
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-        <a href="#">Link 4</a>
+      <nav>
+        <ul>
+          <li><a href="#">About Me</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Contact Me</a></li>
+          <li><a href="#">Resume</a></li>
+        </ul>
       </nav>
     </header>
+
+     <!-- About Me Section-->
+    <section>
+      <h1>About Me</h1>
+      <p>
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+      </p>
+    </section>
+    <!-- Work Section-->
+    <main>
+      <!-- Product Cards -->
+      <!-- Need to make this one bigger  -->
+      <div class="products">
+        <section class="card">
+          <header>Camera</header>
+          <img src="./assets/images/camera.jpg" alt="camera" />
+          <p>Price: $300</p>
+      <!-- Bigger project on top  -->
+        </section>
+        <section class="card">
+          <header>Tablet</header>
+          <img src="./assets/images/tablet.jpg" alt="tablet" />
+          <p>Price: $150</p>
+        </section>
+        <section class="card">
+          <header>Toilet Paper</header>
+          <img src="./assets/images/toilet-paper.jpg" alt="toilet paper" />
+          <p>Price: $30</p>
+        </section>
+        <section class="card">
+          <header>Wooden Spoons</header>
+          <img src="./assets/images/wooden-spoons.jpg" alt="wooden spoons" />
+          <p>Price: $10</p>
+        </section>
+      </div>
+    </main>
+
+    <!-- Contact Information Section-->
+    <section>
+      <h1>Contact Me</h1>
+      <footer>
+        <ul>
+          <li><a href="#">316.259.1133</a></li>
+          <li><a href="#">crhinesmith5@gmail.com</a></li>
+          <li><a href="#">Github</a></li>
+          <li><a href="#">Resume</a></li>
+        </ul>
+      </footer>
+    </section>
+
+  </body>
