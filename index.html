@@ -9,90 +9,103 @@
     <!-- Style sheet second so it is not overwritten-->
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
   </head>
+ 
   <body>
     
     <header>
       <!-- Header-->
       <h1>Calvin Rhinesmith</h1>
       <nav>
+        <!-- Nav Bar-->
         <ul>
           <li><a href="#About_Me">About Me</a></li>
           <li><a href="#Work">Work</a></li>
           <li><a href="#Contact_Me">Contact Me</a></li>
           <li><a href="#Resume">Resume</a></li>
-        </ul>
+        </ul>  
       </nav>
+  
     </header>
+      
 
      <!-- About Me Section-->
     <section>
-      <img src="./assets/images/headshot.jpeg" alt="Headshot of Portfolio Owner"/>
-      <h2 id="About_Me">About Me</h1>
-      <p>
-        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-      </p>
+      <div class="headshot">
+          <header>About Me</header>
+          <p>
+            <img src="./assets/images/headshot.jpeg" alt="Headshot of Portfolio Owner"/>
+          Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+          </p>
+      </div>
     </section>
     <!-- Work Section-->
     <main>
       <!-- Need to make this one bigger  -->
-      <div id="Work">
+      <h2 id="Work">Work</h2>
       <!-- Will replace these as more projects and challenges are finished-->  
-        <section class="bigproject">
+      <div class ="projects">
+        <section class="card">
+          <header>Project 1</header>
+            <p>HTML/CSS</p>
           <a href="https://ripbog.github.io/01-crhinesmith-accessability/">
           <img src="./assets/images/screenshot-hw1.png" alt="Square with text saying coming soon"/>
           </a>
-          <h3>Project 1</h3>
-          <p>MERN Stack</p>
+
       <!-- Bigger project on top  -->
         </section>
 
-        <section class="smallproject">
+        <section class="card">
+          <header>Project 2</header>
+            <p>Node/loT</p>
           <a href="https://github.com/ripbog">
             <img src="./assets/images/placeholderimg.png" alt="Square with text saying coming soon"/>
           </a>
-          <h3>Project 2</h3>
-          <p>Node/loT</p>
+
         </section>
 
-        <section class="smallproject">
+        <section class="card">
+          <header>Project 3</header>
+            <p>React/Javascript/CSS</p>
           <a href="https://github.com/ripbog">
             <img src="./assets/images/placeholderimg.png" alt="Square with text saying coming soon"/>
           </a>
-          <h3>Project 3</h3>
-          <p>React/Javascript/CSS</p>
+          
         </section>
 
-        <section class="smallproject">
+        <section class="card">
+          <header>Project 4</header>
+            <p>MERN Stack</p>
           <a href="https://github.com/ripbog">
             <img src="./assets/images/placeholderimg.png" alt="Square with text saying coming soon"/>
           </a>
-          <h3>Project 4</h3>
-          <p>MERN Stack</p>
+        
         </section>
 
-        <section class="smallproject">
-          <a href="https://github.com/ripbog">
-            <img src="./assets/images/placeholderimg.png" alt="Square with text saying coming soon"/>
-          </a>
-            <h3>Project 5</h3>
+        <section class="card">
+          <header>Project 5</header>
             <p>HTML/CSS</p>
+          <a href="https://github.com/ripbog">
+            <img src="./assets/images/placeholderimg.png" alt="Square with text saying coming soon"/>
+          </a>
+          
         </section>
-      
-      </div>
+      </div>  
 
     </main>
 
     <!-- Contact Information Section-->
-    <section>
+    <footer>
+      
       <h1 id="Contact_Me">Contact Me</h1>
-      <footer>
+      <nav>
+
         <ul>
           <li><a href="#">316.259.1133</a></li>
           <li><a href="#">crhinesmith5@gmail.com</a></li>
-          <li><a href="#">Github</a></li>
+          <li><a href="https://github.com/ripbog">Github</a></li>
           <li id="Resume"><a href="#">Resume</a></li>
         </ul>
-      </footer>
-    </section>
+      </nav>
+    </footer>
 
   </body>
