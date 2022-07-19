@@ -66,6 +66,16 @@ h1 {
   font-size: 25px;
 }
 
+h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: var(--blue);
+  color: var(--light);
+  font-size: var(--headfont);
+
+}
 nav ul {
     display: flex;
     justify-content: space-between;
@@ -96,14 +106,19 @@ hr {
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
+
   .card1 img {
-    width: 2200px;
+    width: 2000px;
   }
   .card1 p {
     background-color: var(--blue);
     color: var(--light);
     text-indent: 150px;
     font-size: 20px;
+  }
+  .card1 h2 {
+    padding: 20px;
+    font-weight: normal;
   }
   .card {
     flex: 0 0 300px;
@@ -113,7 +128,10 @@ hr {
   .card header {
     padding: 20px;
   }
-  
+  .card h2 {
+    padding: 20px;
+    font-weight: normal;
+  }
   .card p {
       padding: 1%;
       background-color: var(--blue);
@@ -122,8 +140,19 @@ hr {
       font-size: 20px;
   }
   
-  
+  section .card1 {
+    width: 80%;
+  }
   .card > img {
     width: 100%;
   }
 
+  @media screen and (max-width: 768px) {
+
+    header {
+      flex-direction: column;
+    }
+    footer {
+      flex-direction: column;
+    }
+  }
